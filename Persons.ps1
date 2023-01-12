@@ -10,7 +10,7 @@ function Get-DayforceAccessToken {
 
     $body = @{
         grant_type = "password";
-        companyId = "elrio";
+        companyId = $config.dayForceClient;
         username = $config.username;
         password = $config.password;
         client_id = "Dayforce.HCMAnywhere.Client"
