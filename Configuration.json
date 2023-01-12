@@ -1,0 +1,57 @@
+[
+  {
+    "key": "dayForceUrl",
+    "type": "input",
+    "defaultValue": "https://www.dayforcehcm.com/",
+    "templateOptions": {
+      "label": "Dayforce URL",
+      "placeholder": "https://www.dayforcehcm.com/",
+      "description": "URL of the client's Ceridian Dayforce instance",
+      "required": true
+    }
+  },
+  {
+    "key": "dayForceClient",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Dayforce Client Name",
+      "placeholder": "MyOrg",
+      "description": "Client name used in conjunction with username/password to log in to Dayforce",
+      "required": true
+    }
+  },
+  {
+    "key": "apiVersion",
+    "type": "input",
+    "defaultValue": "V1",
+    "templateOptions": {
+      "label": "API Version",
+      "placeholder": "V1",
+      "description": "Version of the Dayforce API to target",
+      "required": true
+    }
+  },
+  {
+    "key": "username",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Username",
+      "placeholder": "Username",
+      "description": "",
+      "required": true
+    }
+  },
+  {
+    "key": "password",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Password",
+      "type": "password",
+      "placeholder": "",
+      "required": true
+    }
+  }
+]
